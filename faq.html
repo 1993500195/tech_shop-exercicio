@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FAQ - Perguntas Frequentes</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+
+      h1 {
+        text-align: center;
+        color: #005c99;
+      }
+
+      details {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 10px 15px;
+      }
+
+      summary {
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      summary::-webkit-details-marker {
+        display: none;
+      }
+
+      summary::before {
+        content: "▶ ";
+        color: #005c99;
+      }
+
+      details[open] summary::before {
+        content: "▼ ";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>FAQ - Perguntas Frequentes</h1>
+
+    <details>
+      <summary>O que é este site?</summary>
+      <p>
+        Este site é uma plataforma para responder perguntas frequentes sobre
+        nosso serviço.
+      </p>
+    </details>
+
+    <details>
+      <summary>Como posso entrar em contato com o suporte?</summary>
+      <p>
+        Você pode entrar em contato pelo e-mail: suporte@exemplo.com ou pelo
+        nosso chat ao vivo.
+      </p>
+    </details>
+
+    <details>
+      <summary>Quais formas de pagamento são aceitas?</summary>
+      <p>Aceitamos cartões de crédito, débito, Pix e boleto bancário.</p>
+    </details>
+
+    <details>
+      <summary>Posso cancelar minha assinatura?</summary>
+      <p>
+        Sim, você pode cancelar a qualquer momento acessando sua conta na aba
+        "Assinatura".
+      </p>
+    </details>
+  </body>
+</html>
